@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite_IE]">
+  <parameter name="testBed" value="IE"/>
+  <test name="Test_IE(failed)">
+    <parameter name="testBed" value="IE"/>
+    <classes>
+      <class name="com.demo.testng.CustomTestNG">
+        <methods>
+          <include name="deinit"/>
+          <include name="dummyTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.demo.testng.CustomTestNG -->
+    </classes>
+  </test> <!-- Test_IE(failed) -->
+</suite> <!-- Failed suite [Suite_IE] -->

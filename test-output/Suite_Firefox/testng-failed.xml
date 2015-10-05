@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite_Firefox]">
+  <parameter name="testBed" value="Firefox"/>
+  <test name="Test_Firefox(failed)">
+    <parameter name="testBed" value="Firefox"/>
+    <classes>
+      <class name="com.demo.testng.CustomTestNG">
+        <methods>
+          <include name="deinit"/>
+          <include name="dummyTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.demo.testng.CustomTestNG -->
+    </classes>
+  </test> <!-- Test_Firefox(failed) -->
+</suite> <!-- Failed suite [Suite_Firefox] -->
